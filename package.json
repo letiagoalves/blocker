@@ -1,0 +1,28 @@
+{
+  "name": "blocker",
+  "version": "0.0.0",
+  "description": "socket wrapper around rule based map generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letiagoalves/blocker.git"
+  },
+  "keywords": [
+    "blocker",
+    "socket",
+    "rule",
+    "based",
+    "map",
+    "generator",
+    "tiles"
+  ],
+  "author": "Tiago Alves <letiagoalves@gmail.com> (http://letiagoalves.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/letiagoalves/blocker/issues"
+  },
+  "homepage": "https://github.com/letiagoalves/blocker"
+}
