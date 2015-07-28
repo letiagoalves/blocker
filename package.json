@@ -24,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/letiagoalves/blocker/issues"
   },
-  "homepage": "https://github.com/letiagoalves/blocker"
+  "homepage": "https://github.com/letiagoalves/blocker",
+  "dependencies": {
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^16.0.0",
+    "load-grunt-tasks": "^3.2.0"
+  }
 }
