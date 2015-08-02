@@ -1,0 +1,51 @@
+{
+    "seed": 999,
+    "numberOfSides": 4,
+    "maxMapSize": {
+        "horizontal": 10,
+        "vertical": 10
+    },
+    "initialMapSize": 4,
+    "blocks": [{
+        "id": "b1",
+        "classes": [],
+        "connectors": {
+            "UP": "none",
+            "RIGHT": "none",
+            "BOTTOM": "none",
+            "LEFT": "none"
+        },
+        "constraints": {
+            "maxOccupation": 5
+        }
+    }, {
+        "id": "b2",
+        "classes": [],
+        "connectors": {
+            "UP": "none",
+            "RIGHT": "none",
+            "BOTTOM": "none",
+            "LEFT": "none"
+        },
+        "constraints": {
+            "maxOccupation": 2
+        }
+    }, {
+        "id": "b3",
+        "classes": [],
+        "connectors": {
+            "UP": "none",
+            "RIGHT": "none",
+            "BOTTOM": "none",
+            "LEFT": "none"
+        },
+        "constraints": {
+        }
+    }],
+    "connectors": [{
+        "id": "none",
+        "type": "whitelist",
+        "blockIds": ["b1", "b2", "b3"],
+        "blockClasses": []
+    }]
+}

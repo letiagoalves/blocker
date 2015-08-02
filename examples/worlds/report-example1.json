@@ -1,0 +1,59 @@
+{
+    "seed": 999,
+    "numberOfSides": 4,
+    "maxMapSize": {
+        "horizontal": 10,
+        "vertical": 10
+    },
+    "initialMapSize": 4,
+    "blocks": [{
+        "id": "b1",
+        "classes": [],
+        "connectors": {
+            "UP": "allowB2",
+            "RIGHT": "denyB2",
+            "BOTTOM": "allowB2",
+            "LEFT": "denyB2"
+        },
+        "constraints": {
+        }
+    }, {
+        "id": "b2",
+        "classes": [],
+        "connectors": {
+            "UP": "none",
+            "RIGHT": "none",
+            "BOTTOM": "none",
+            "LEFT": "none"
+        },
+        "constraints": {
+        }
+    }, {
+        "id": "b3",
+        "classes": [],
+        "connectors": {
+            "UP": "none",
+            "RIGHT": "none",
+            "BOTTOM": "none",
+            "LEFT": "none"
+        },
+        "constraints": {
+        }
+    }],
+    "connectors": [{
+        "id": "none",
+        "type": "whitelist",
+        "blockIds": ["b1", "b2", "b3"],
+        "blockClasses": []
+    }, {
+        "id": "allowB2",
+        "type": "whitelist",
+        "blockIds": ["b2"],
+        "blockClasses": []
+    }, {
+        "id": "denyB2",
+        "type": "blacklist",
+        "blockIds": ["b2"],
+        "blockClasses": []
+    }]
+}
