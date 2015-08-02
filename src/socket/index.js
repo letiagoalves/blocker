@@ -43,8 +43,10 @@ function handler(server, worldInstance) {
     }
 
     function connectionHandler(socket) {
+        var mDomain;
+
         console.log('user connected');
-        var mDomain = domain.create();
+        mDomain = domain.create();
         mDomain.add(socket);
         mDomain.on('error', function () {
             console.log('domain error', arguments);
@@ -53,7 +55,7 @@ function handler(server, worldInstance) {
         socket.on(EVENTS.MAP, onGetMap.bind(null, socket));
         socket.on(EVENTS.PARTIAL_MAP, onGetPartialMap.bind(null, socket));
         socket.on('disconnect', onUserDisconnected);
-        socket.on('error', onErrorHandler.bind(null, socket))
+        socket.on('error', onErrorHandler.bind(null, socket));
     }
 
     io = socketIO(server);
