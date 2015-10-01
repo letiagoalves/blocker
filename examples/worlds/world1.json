@@ -1,10 +1,10 @@
 {
-    "numberOfSides": 4,
+    "strategy": "squareGrid",
     "bounds": {
         "horizontal": 10,
         "vertical": 10
     },
-    "initialBlock": "b1",
+    "mapCenter": "b1",
     "initialMapSize": 5,
     "blocks": [{
         "id": "b1",

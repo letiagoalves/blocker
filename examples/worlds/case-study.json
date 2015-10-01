@@ -1,7 +1,7 @@
 {
     "seed": 1337,
-    "numberOfSides": 4,
-    "initialBlock": "VEHICLES_SPAWN",
+    "strategy": "squareGrid",
+    "mapCenter": "VEHICLES_SPAWN",
     "initialMapSize": 10,
     "blocks": [{
         "id": "FOREST",

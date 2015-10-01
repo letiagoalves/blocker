@@ -1,11 +1,11 @@
 {
     "seed": 1337,
-    "numberOfSides": 4,
-    "maxMapSize": {
+    "strategy": "squareGrid",
+    "bounds": {
         "horizontal": 20,
         "vertical": 16
     },
-    "initialBlock": "b1",
+    "mapCenter": "b1",
     "initialMapSize": 5,
     "blocks": [{
         "id": "b1",

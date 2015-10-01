@@ -1,7 +1,7 @@
 {
     "seed": 1337,
-    "numberOfSides": 4,
-    "maxMapSize": {
+    "strategy": "squareGrid",
+    "bounds": {
         "horizontal": 10,
         "vertical": 10
     },
