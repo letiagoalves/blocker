@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/letiagoalves/blocker",
   "dependencies": {
+    "mout": "^0.11.0",
     "socket.io": "^1.3.5",
     "socket.io-client": "^1.3.5"
   },
