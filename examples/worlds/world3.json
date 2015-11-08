@@ -1,11 +1,12 @@
 {
+    "seed": 1337,
     "strategy": "squareGrid",
+    "initialMapSize": 5,
     "bounds": {
         "horizontal": 10,
         "vertical": 10
     },
     "mapCenter": "b1",
-    "initialMapSize": 8,
     "blocks": [{
         "id": "b1",
         "classes": [],
@@ -16,7 +17,6 @@
             "LEFT": "none"
         },
         "constraints": {
-            "maxOccupation": 5,
             "maxOccupationPercentage": 25
         }
     }, {
@@ -29,8 +29,7 @@
             "LEFT": "none"
         },
         "constraints": {
-            "maxOccupation": 3,
-            "maxOccupationPercentage": 25
+            "maxOccupationPercentage": 50
         }
     }, {
         "id": "b3",
